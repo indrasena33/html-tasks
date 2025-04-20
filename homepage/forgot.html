@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+<body style="text-align: center;">
+    <h2>Forgot Password</h2>
+    <p>Enter your email address to reset your password.</p>
+    <form action="./newpassword.html">
+        <fieldset style="width: 300px; margin-left: 600px;">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><p>send otp</p>
+        <label for="otp">enter otp:</label>
+        <input type="text" required pattern="\d{5}" title="enter correct otp"><br><br>
+        <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
